@@ -124,3 +124,9 @@ main{
 .about-info{
     text-align: center;
 }
+
+/* What I'm Learning Section Styles */
+
+#what-i-am-learning{
+    padding: 30px 150px;
+}
