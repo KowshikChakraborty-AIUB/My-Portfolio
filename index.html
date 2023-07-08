@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Styles/portfolio.css">
+    <script src="https://kit.fontawesome.com/fada3804d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -24,8 +25,10 @@
                 <h3 class="banner-intro">Hello, Myself</h3>
                 <h1 class="banner-title">Kowshik Chakraborty</h1>
                 <p>Trying to make my portfolio using HTML & CSS.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <div class="banner-content-btn-gap">
+                    <button class="btn-primary"> <i class="fa-solid fa-download"></i> Download CV</button>
+                    <button class="btn-primary"> <i class="fa-solid fa-phone-volume"></i> Contact</button>
+                </div>
             </div>
             <img class="picture" src="./Images/Kowshik-removebg.png" alt="">
         </div>
@@ -144,7 +147,7 @@ In React, you develop your applications by creating reusable components that you
                 </div>
             </div>
             <div class="download-cv">
-                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary"> <i class="fa-solid fa-download"></i> Download CV</button>
             </div>
         </section>
     </main>

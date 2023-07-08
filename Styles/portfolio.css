@@ -68,9 +68,10 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url('../Images/header_bg.png');
+    background-image: url('../Images/header_bg.png'), url('../Images/AI.JPG');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    background-size: auto, 57px;
 }
 
 .banner{
@@ -82,6 +83,11 @@ nav a{
 
 .banner-content{
     /* max-width: 500px; */
+}
+
+.banner-content-btn-gap{
+    display: flex;
+    gap: 15px;
 }
 
 .banner .picture{
