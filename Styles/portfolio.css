@@ -234,3 +234,29 @@ footer{
     border: 0;
     width: 100%;
 }
+
+/* Responsive Styles */
+.hide{
+    display: none;
+}
+/* For Mobile Devices */
+
+@media screen and (max-width:576px) {
+    .skill-container, .resume-container, footer{
+        flex-direction: column;
+    }
+    #what-i-am-learning{
+        padding: 25px;
+    }
+
+    footer{
+        padding: 15px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+
+    .contact-form input[type="text"], input[type="email"], textarea{
+        width: 80%;
+    }
+}
