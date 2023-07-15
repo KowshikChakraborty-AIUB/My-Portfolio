@@ -242,7 +242,7 @@ footer{
 /* For Mobile Devices */
 
 @media screen and (max-width:576px) {
-    body{
+    html, body{
         overflow-x: hidden;
     }
     .header{
