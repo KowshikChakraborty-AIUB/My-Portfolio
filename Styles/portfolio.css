@@ -242,9 +242,9 @@ footer{
 /* For Mobile Devices */
 
 @media screen and (max-width:576px) {
-    /* body{
+    body{
         overflow-x: hidden;
-    } */
+    }
     .header{
         background-image: none;
     }
@@ -275,9 +275,17 @@ footer{
         padding-right: 50%;
     }
 
+    .banner-content{
+        width: 80%;
+    }
+
     .banner-content-btn-gap{
         flex-direction: column;
         width: 50%;
+    }
+
+    .skills{
+        width: 80%;
     }
 
     footer, .about{
